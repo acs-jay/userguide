@@ -1,0 +1,30 @@
+{
+  "name": "userguide",
+  "version": "0.4.0",
+  "description": "ACS User Guide",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }, 
+	"engines":{
+	  "node": "0.10.x"
+	  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acs-jay/userguide.git"
+  },
+  "keywords": [
+    "ACS",
+    "documentation"
+  ],
+  "author": "AccountingSuite / Jay Larson",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/acs-jay/userguide/issues"
+  },
+  "homepage": "https://github.com/acs-jay/userguide",
+  "dependencies": {
+    "logfmt": "~1.1.2",
+    "express": "~4.4.1"
+  }
+}

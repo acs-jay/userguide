@@ -44,8 +44,8 @@ var app = http.createServer(function(req, res){
 
 }
 
-}).listen(process.env.PORT || 5000);  // 1337, '127.0.0.1'
- console.log('Server running on Heroku');
+//}).listen(process.env.PORT || 5000);  // 1337, '127.0.0.1'
+ //console.log('Server running on Heroku');
 
-//}).listen(1337);  // 1337, '127.0.0.1'
-//console.log('Server running locally at 127.0.0.1:1337');
+}).listen(1339);  // 1339, '127.0.0.1'
+console.log('Server running locally at 127.0.0.1:1339');

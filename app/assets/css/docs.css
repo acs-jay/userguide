@@ -452,7 +452,7 @@ body {
 /* Janky fix for preventing navbar from overlapping */
 h1[id] {
   padding-top: 80px;
-  margin-top: -45px;
+  margin-top: -80px;
 }
 
 
@@ -467,7 +467,9 @@ h1[id] {
 .bs-callout {
   margin: 20px 0;
   padding: 15px 30px 15px 15px;
-  border-left: 5px solid #eee;
+  border-top:1px dotted #ccc;
+  border-bottom:1px dotted #ccc;
+  border-right:1px dotted #ccc;
 }
 .bs-callout h4 {
   margin-top: 0;
@@ -480,20 +482,28 @@ h1[id] {
   background-color: #fff;
 }
 
-/* Variations */
-.bs-callout-danger {
-  background-color: #fcf2f2;
-  border-color: #dFb5b4;
-}
-.bs-callout-warning {
-  background-color: #fefbed;
-  border-color: #f1e7bc;
-}
-.bs-callout-info {
-  background-color: #f0f7fd;
-  border-color: #d0e3f0;
+.bs-callout li {
+	margin: 0 0 7px 0;
 }
 
+/* Variations */
+.bs-callout-danger {
+  background-color: #ffffff;
+  border-left:5px solid #ff0000;
+}
+.bs-callout-warning {
+  background-color:#fff;
+  border-left:5px solid #fecb00;
+}
+
+.bs-callout-info {
+  background-color:#fff;
+  border-left:5px solid #114c97;
+}
+
+.bs-callout p {
+	margin-bottom:10px;
+}
 
 /*
  * Grid examples
